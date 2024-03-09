@@ -11,7 +11,7 @@ spec:
   ports:
   - port: 80
     protocol: TCP
-    targetPort: 6001
+    targetPort: 6002
   selector:
     app: produtos-deployment
   type: LoadBalancer
