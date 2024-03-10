@@ -19,7 +19,7 @@ spec:
           image: deiro1/app-fast-food-produtos:latest
           command: ["sh", "-c", "npm run generate && npm run migrate && npm run start"]
           ports:
-            - containerPort: 6001
+            - containerPort: 6002
           resources:
             requests:
               cpu: 333m
